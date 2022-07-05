@@ -28,13 +28,14 @@
 // Linting (코드 검사, 오류 확인, 자동 포멧팅) -ESLint
 // Formatting (코드 일관성 유지) - Prettier
 
-const server = require("live-server/index.js") // live-server module을 반환. index.js 생략해도 됨.
+const server = require("live-server/index.js"); // live-server module을 반환. index.js 생략해도 됨.
 
 const params = {
   host: "localhost",
   port: 3000,
+
   root: "client",
   open: false,
-  cors: true
-}
+  cors: true,
+};
 server.start(params);

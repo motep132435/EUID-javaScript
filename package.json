@@ -6,11 +6,13 @@
     "client": "live-server client --host=localhost --port=3000 --no-browser --cors",
     "server": "node server/index.js",
     "lint:server": "eslint server**/*.js --ignore-path .gitignore",
-    "lint:client": "eslint client**/*.js --ignore-path .gitignore"
+    "lint:client": "eslint client**/*.js --ignore-path .gitignore",
+    "format": "prettier --write ./**/*.js --ignore-path .gitignore"
   },
   "devDependencies": {
-    "eslint": "^8.19.0",
+    "eslint": "8.19.0",
     "live-server": "1.2.2",
-    "nodemon": "2.0.18"
+    "nodemon": "2.0.18",
+    "prettier": "2.7.1"
   }
 }
