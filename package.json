@@ -1,0 +1,12 @@
+{
+  "name": "euid-javascript",
+  "provata": true,
+  "description": "러닝 ECMAScript",
+  "scripts": {
+    "client": "live-server client --host=localhost --port=3000 --no-browser --cors",
+    "server": "node server/index.js"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
+}
