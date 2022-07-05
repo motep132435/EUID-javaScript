@@ -25,6 +25,9 @@
 
 // console.log(global.process.env.LANG);
 
+// Linting (코드 검사, 오류 확인, 자동 포멧팅) -ESLint
+// Formatting (코드 일관성 유지) - Prettier
+
 const server = require("live-server/index.js") // live-server module을 반환. index.js 생략해도 됨.
 
 const params = {
