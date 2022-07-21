@@ -36,9 +36,11 @@ const getNumberOfdaysPerYear; // 1년 기준 일자 수
 const DAYS_PER_YEAR = 365;
 
 
+
 const brandPrefix; // 브랜드 접두사
 const productInformation; // 상품 정보
 
+갯수 별 상품 가격 계산하기
 
 
 // 클라이언트 <--> 서버

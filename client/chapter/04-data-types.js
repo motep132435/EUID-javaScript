@@ -2,7 +2,6 @@
 /* Data Types                                                             */
 /* ---------------------------------------------------------------------- */
 
-
 /* ECMAScript의 8가지 데이터 타입 -------------------------------------------- */
 
 // primitives(immutable) 원시 데이터 타입. 불변.
@@ -25,19 +24,24 @@
 // 8. 고유한 식별자(unique identifier)
 // symbol
 
-
-// object tpye(mmutable) 변할 수 있음. 
+// object tpye(mmutable) 변할 수 있음.
 
 // 7. 데이터 컬렉션(collection) 또는 복잡한 엔티티(entity)
 // object (plain object, array, function)
 
-
 /* typeof 연산자의 2가지 사용법 ---------------------------------------------- */
 
 // 1) 연산자 typeof
-// 2) 함수 typeof()  / typeof () 
+// 2) 함수 typeof()  / typeof ()
 
 // 언어 상, 오류
 function typeIs(dataType) {
-  return Object.prototype.toString.call(dataType).slice(8,-1).toLowerCase();
-} 
+  return Object.prototype.toString.call(dataType).slice(8, -1).toLowerCase();
+}
+console.log(typeIs(NaN));
+
+// 객체가 아닌데 객체가 가지고 있는 속성들을 사용할 수 있는 이유.
+// 자바스크립트 엔진이 레퍼 객체를 만들어서,
+
+
+
